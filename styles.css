@@ -1,13 +1,15 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .holder {
     display: flex;
 	flex-direction: row;
 	flex-wrap : wrap;
-    
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap : wrap;
+
 }
 
 .box {
