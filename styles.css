@@ -1,2 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
 
-/* Your CSS Code here. */
+.container2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: 2px;
+}
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: red;
+}
+.box3{
+    background-color: blue;
+}
