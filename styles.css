@@ -3,9 +3,11 @@
     justify-content: space-between;
 }
 
-.container2 {
+.holder {
     display: flex;
-    flex-flow: row wrap;
+	flex-direction: row;
+	flex-wrap : wrap;
+    
 }
 
 .box {
